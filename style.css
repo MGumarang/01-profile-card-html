@@ -1,0 +1,53 @@
+/* Sets the page background to light blue */
+html {
+    background-color: lightblue;
+}
+
+/* Styles the card container: white background, centered text, font, border, border radius, padding, and centered on page */
+.card {
+    background-color: white;
+    text-align: center;
+    font-family: Georgia, serif;
+    border: 2px solid #999;
+    border-radius: 10px;
+    padding: 40px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+
+/* Styles the main heading: large size and dark blue color */
+h1 {
+    font-size: 3em;
+    color: darkblue;
+}
+
+/* Styles the subheading: medium-large size and slate gray color */
+h2 {
+    font-size: 2em;
+    color: slategray;
+}
+
+/* Styles the biography paragraph: slightly larger font with generous line spacing for readability */
+.bio {
+    font-size: 18px;
+    line-height: 1.8;
+}
+
+/* Styles the profile image: sets max width and height for proper card fit */
+.card img {
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Removes bullet points from the list and adds spacing */
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+/* Adds spacing between list items */
+li {
+    margin: 10px 0;
+}
